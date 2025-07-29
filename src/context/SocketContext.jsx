@@ -8,7 +8,7 @@ export const SocketProvider = ({ children }) => {
   const socketRef = useRef(null);
 
   useEffect(() => {
-    socketRef.current = io("http://localhost:5000");
+    socketRef.current = io("https://vidyasetu.onrender.com");
     return () => {
       socketRef.current.disconnect();
     };
