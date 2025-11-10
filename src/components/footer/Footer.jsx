@@ -13,7 +13,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Alok Patel
+            Prathap Kumar
           </a>
         </p>
         <div className="social-links">
